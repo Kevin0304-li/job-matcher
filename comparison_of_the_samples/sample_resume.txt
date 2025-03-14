@@ -1,0 +1,47 @@
+Education
+Carnegie Mellon University, School of Computer Science, Master of Science in Robotics
+Peking University, Bachelor of Science, Industrial Engineering
+
+Experience
+
+Lead a cross-functional team of 10, including AI researchers, engineers, designer, marketers, and HR, building the next generation AI interview products to boost hiring efficiency
+Launched an AI job-hunting platform delivering personalized job opportunities, attracting 2,000+ subscribers
+Operates a mentorship platform for professional skills coaching
+Senior Technical Program Manager at Google, Mountain View, CA
+04/2019–02/2023
+
+Established the on-device Google Assistant program, integrating AI and edge computing to minimize user friction and latency, launched at the Made by Google event, impacting over 10M home devices
+Led a cross-departmental project as product owner to develop a local Smart Home framework, equivalent to a Home Automation server, delivering a seamless local experience with 3X faster query execution
+Developed the roadmap for an AI-driven ranking engine to personalize content delivery on Smart Displays, boosting user engagement with the screen from 11% to 18%
+Served as the product owner for the Smart Displays portfolio, driving strategies, feature development, and quality
+Technical Product Manager at TuSimple, San Diego, CA
+03/2018–04/2019
+
+Served as the lead product manager and designed a series of software products which became the foundation supporting autonomous driving system's workflows and a fleet of trucks’ operation
+Optimized the data pipeline from data collection to post-processing, reducing the data idle time by over 30%
+Created tags domain system for debrief and triage on the autonomous driving road test issues, which enabled algorithm modules' conditional benchmarks and tag-driven improvement
+Software Engineering Intern at Amazon Robotics, Boston, MA
+05/2017–09/2017
+
+Invented a technique using infrared camera and computer vision to capture finger touching points when human naturally grasping packages, filing a US patent application of my invention
+Developed a software application which automated the images capturing and 3D point clouds storage process
+Tutored operating team to work on my system, and wrote the code specifics as well as user manual for reference
+Founder & CEO of TP-Helper, Beijing, China
+09/2015–03/2017
+
+Assembled a cross-functional team of 6 to develop and operate an information exchange platform, enabling college students to find immediate help with everyday tasks
+Defined a user growth plan, reaching 30,000+ users and 6,000+ DAU within the first year, while generating $12,000 monthly revenue through VIP features and partnerships with local businesses
+Product Manager at Tencent Company, Shenzhen, China
+05/2015–09/2015
+
+Designed the reputation system and reporting feature to enhance user’s gaming experience on Tencent Game Platform
+Launched the 4th anniversary program of League of Legends on WeChat platform, visualizing players’ gaming records and exciting moments, attracting over 3 million viewing times
+Projects
+Marketing Articles Repurposing Tool for KOLs
+Landing Page Builder using AIGC Tools (GPT, Midjourney)
+GGV Capital Fellowship Program 2020
+Social Interactive Robot’s Prototyping for Elderly People
+Product Design for Teaching Aids Simulator Based on Augmented Reality
+Skills & Interests
+Skills: Product Management, Project Management, Cross-Functional Team Leadership, Gen-AI, Data Analysis, Machine Learning, Deep Learning, Python, Matlab, Django, MySQL, R, Axure, JIRA
+Interests: Entrepreneurship, AI/Robotics, Bio-tech, Edu-tech, E-commerce

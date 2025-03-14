@@ -1,0 +1,27 @@
+{
+  "education": {
+    "match_level": 5,
+    "match_score": "70%",
+    "reasoning": "The candidate holds a Master of Science in Robotics and a Bachelor of Science in Industrial Engineering. While these degrees are not directly in Business or Computer Science, they are relevant to the technical aspects of product management in AI and technology-driven fields. However, the lack of a degree specifically in Business or a related field limits the score."
+  },
+  "work_and_project_experience": {
+    "match_level": 5,
+    "match_score": "65%",
+    "reasoning": "The candidate has significant experience in product management and technical program management, particularly in AI-driven products at Google and autonomous driving systems at TuSimple. However, there is no direct experience with monetization strategies or the dating industry, which are critical for this role. The candidate's experience in gaming at Tencent is relevant but does not fully align with the monetization focus required."
+  },
+  "skills": {
+    "match_level": 5,
+    "match_score": "65%",
+    "reasoning": "The candidate possesses strong skills in product management, project management, and data analysis, which are transferable to the role. However, there is no specific mention of experience with subscription models, in-app purchases, or A/B testing, which are essential for the monetization aspect of the job. This gap in specific monetization skills affects the overall score."
+  },
+  "experience_year": {
+    "match_level": 6,
+    "match_score": "80%",
+    "reasoning": "The candidate has approximately 8 years of relevant experience in product management and technical roles, exceeding the 5+ years requirement. While the experience is substantial, the lack of direct focus on monetization strategies slightly lowers the score."
+  },
+  "Final_match": {
+    "match_level": 5,
+    "Final_match_score": "70%",
+    "reasoning": "Overall, the candidate has a strong background in product management and technical program management, with relevant skills and experience. However, the absence of specific monetization experience and knowledge of the dating industry, along with the educational background not being directly aligned with the job requirements, results in a moderate match level."
+  }
+}

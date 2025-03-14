@@ -1,0 +1,27 @@
+{
+  "education": {
+    "match_level": 5,
+    "match_score": "70%",
+    "reasoning": "The candidate holds a Master of Science in Robotics and a Bachelor of Science in Industrial Engineering. While these degrees are not an exact match for the preferred fields of Human-Computer Interaction or Cognitive Science, they are relevant to technology and engineering, which can be applicable in UX research contexts. A higher score could be achieved with a degree directly related to UX or cognitive sciences."
+  },
+  "work_and_project_experience": {
+    "match_level": 5,
+    "match_score": "65%",
+    "reasoning": "The candidate has extensive experience in technical program management and product management, particularly in AI and autonomous systems. However, the role specifically requires experience in UX research and managing design projects, which the candidate does not explicitly demonstrate. Their experience in leading cross-functional teams and product ownership is valuable but lacks direct UX research involvement, which is critical for this position."
+  },
+  "skills": {
+    "match_level": 5,
+    "match_score": "65%",
+    "reasoning": "The candidate possesses strong skills in product management, project management, and technical skills such as machine learning and data analysis. However, the job description emphasizes qualitative research methods and UX-specific skills that are not highlighted in the candidate's skill set. A higher score would require demonstrated expertise in UX research methodologies and tools."
+  },
+  "experience_year": {
+    "match_level": 5,
+    "match_score": "65%",
+    "reasoning": "The candidate has approximately 8 years of experience, which meets the minimum requirement of 8 years in an applied research setting. However, the lack of specific UX research experience and direct leadership in UX projects limits the relevance of this experience for the role, preventing a higher score."
+  },
+  "Final_match": {
+    "match_level": 5,
+    "Final_match_score": "66%",
+    "reasoning": "The candidate's background in technical program management and product management is strong, but the specific requirements for UX research experience and methodologies are not fully met. To improve the match, the candidate would benefit from gaining direct experience in UX research roles and methodologies, as well as enhancing their educational background with relevant coursework or certifications in UX design or research."
+  }
+}

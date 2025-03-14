@@ -1,0 +1,27 @@
+{
+  "education": {
+    "match_level": 4,
+    "match_score": "60%",
+    "reasoning": "The candidate holds a Master's degree in Robotics and a Bachelor's in Industrial Engineering. While these degrees are not directly in Computer Science or Software Engineering, they are related fields that involve technical and analytical skills. However, the lack of a direct Computer Science background limits the score."
+  },
+  "work_and_project_experience": {
+    "match_level": 3,
+    "match_score": "45%",
+    "reasoning": "The candidate has extensive experience in technical program management and product management but lacks direct game development experience. Their roles at Google and TuSimple involved AI and software product management, which do not translate directly to game development. The experience at Tencent involved gaming but was brief and not focused on development, leading to a lower score."
+  },
+  "skills": {
+    "match_level": 2,
+    "match_score": "40%",
+    "reasoning": "The candidate has strong skills in product management, project management, and technical skills like Python and machine learning. However, they lack proficiency in C++, game engine architecture, and specific gaming tools like Unreal Engine, which are critical for the role. This significant gap in required technical skills results in a low score."
+  },
+  "experience_year": {
+    "match_level": 4,
+    "match_score": "60%",
+    "reasoning": "The candidate has approximately 8 years of experience, which exceeds the 4+ years required. However, most of their experience is not in game development, which is a critical requirement for the role. The experience is relevant in terms of technical understanding but does not align with the specific gaming context needed."
+  },
+  "Final_match": {
+    "match_level": 3,
+    "Final_match_score": "48%",
+    "reasoning": "Overall, the candidate has a solid technical background and significant experience in product and program management. However, the lack of direct game development experience, specific gaming skills, and the absence of a Computer Science degree significantly hinder their fit for the Game Systems Engineer role at Epic Games."
+  }
+}

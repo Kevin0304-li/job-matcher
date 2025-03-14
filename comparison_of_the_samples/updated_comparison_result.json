@@ -1,0 +1,27 @@
+{
+  "education": {
+    "match_level": 5,
+    "match_score": "70%",
+    "reasoning": "The candidate holds a Master of Science in Robotics, which is relevant to the field of AI and technology, but not directly aligned with the preferred qualifications of Human-Computer Interaction or Cognitive Science. A degree in a more closely related field would have scored higher."
+  },
+  "work_and_project_experience": {
+    "match_level": 5,
+    "match_score": "65%",
+    "reasoning": "The candidate has significant experience in technical program management and product management, particularly at Google and TuSimple, which involves leading teams and managing projects. However, the lack of direct UX research experience and specific methodologies mentioned in the job description (e.g., interviews, focus groups) limits the score."
+  },
+  "skills": {
+    "match_level": 5,
+    "match_score": "65%",
+    "reasoning": "The candidate possesses strong skills in product management, project management, and cross-functional team leadership, which are valuable for the role. However, the absence of specific qualitative research methods expertise and direct experience in UX research diminishes the match."
+  },
+  "experience_year": {
+    "match_level": 5,
+    "match_score": "65%",
+    "reasoning": "The candidate has approximately 8 years of experience, which meets the minimum requirement. However, the experience is not fully aligned with UX research or managing UX projects, which is critical for the role, thus preventing a higher score."
+  },
+  "Final_match": {
+    "match_level": 5,
+    "Final_match_score": "66%",
+    "reasoning": "Overall, the candidate has a solid background in technical program and product management, which is relevant but lacks the specific UX research focus and methodologies required for the position. To improve the score, the candidate would need more direct experience in UX research and qualitative methods, as well as a degree more closely aligned with the preferred qualifications."
+  }
+}

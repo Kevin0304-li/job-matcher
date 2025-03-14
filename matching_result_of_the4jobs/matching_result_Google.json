@@ -1,0 +1,27 @@
+{
+  "education": {
+    "match_level": 5,
+    "match_score": "70%",
+    "reasoning": "The candidate has a Master of Science in Robotics, which is relevant to AI/ML but not an exact match to Computer Science or Machine Learning. This degree provides a strong foundation in technical skills applicable to AI/ML roles, but a degree specifically in Computer Science or Machine Learning would have scored higher."
+  },
+  "work_and_project_experience": {
+    "match_level": 5,
+    "match_score": "65%",
+    "reasoning": "The candidate has significant experience as a Senior Technical Program Manager at Google, where they worked on AI-driven projects, but lacks direct software engineering experience in developing ML models. Their experience in product management and technical program management is valuable, but the role specifically requires hands-on software engineering experience with ML frameworks."
+  },
+  "skills": {
+    "match_level": 4,
+    "match_score": "60%",
+    "reasoning": "The candidate possesses strong programming skills in Python and has experience with machine learning concepts, but lacks specific experience with required ML frameworks such as TensorFlow or PyTorch. Additionally, while they have skills in data analysis and deep learning, the absence of direct experience deploying ML models to production is a significant gap."
+  },
+  "experience_year": {
+    "match_level": 5,
+    "match_score": "65%",
+    "reasoning": "The candidate has approximately 8 years of experience, which meets the requirement of 7+ years. However, much of this experience is in technical program management rather than direct software engineering, which is critical for this role. More direct experience in software engineering, particularly in ML, would have resulted in a higher score."
+  },
+  "Final_match": {
+    "match_level": 5,
+    "Final_match_score": "65%",
+    "reasoning": "Overall, the candidate has a solid background in technical program management and relevant educational qualifications, but lacks direct hands-on software engineering experience with machine learning frameworks and deploying models. To improve their match, gaining experience with specific ML frameworks and direct software engineering roles would be essential."
+  }
+}

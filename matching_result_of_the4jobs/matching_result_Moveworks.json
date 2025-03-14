@@ -1,0 +1,27 @@
+{
+  "education": {
+    "match_level": 5,
+    "match_score": "70%",
+    "reasoning": "The candidate holds a Master of Science in Robotics, which is relevant to AI/ML roles but not an exact match to Computer Science or AI. The Bachelor's degree in Industrial Engineering is somewhat relevant, but the primary focus on Robotics aligns well with the technical requirements of the job."
+  },
+  "work_and_project_experience": {
+    "match_level": 6,
+    "match_score": "80%",
+    "reasoning": "The candidate has significant experience as a Senior Technical Program Manager at Google, where they led AI-driven projects, which translates well to the role. However, while they have product management experience in autonomous driving and smart home technologies, they lack direct software engineering experience, which is a key requirement for the role."
+  },
+  "skills": {
+    "match_level": 5,
+    "match_score": "65%",
+    "reasoning": "The candidate possesses strong programming skills in Python and has experience with machine learning and AI, which are relevant. However, they do not mention JavaScript, which is specifically required. Additionally, while they have experience in project management and cross-functional leadership, the lack of specific NLP or conversational AI experience limits their score."
+  },
+  "experience_year": {
+    "match_level": 5,
+    "match_score": "70%",
+    "reasoning": "The candidate has approximately 8 years of experience, which exceeds the 3+ years requirement. However, the experience is primarily in technical program management and product management rather than direct software engineering, which is critical for the role."
+  },
+  "Final_match": {
+    "match_level": 5,
+    "Final_match_score": "70%",
+    "reasoning": "Overall, the candidate has a strong background in AI-related projects and technical program management, but lacks direct software engineering experience and specific skills in JavaScript and NLP. To improve their match, they would need to demonstrate more hands-on software engineering experience and familiarity with the required technologies."
+  }
+}
