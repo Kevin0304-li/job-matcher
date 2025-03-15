@@ -130,18 +130,25 @@ class ResumeJDMatcher:
         1. EDUCATION:
            - Consider the RELEVANCE of the education field more than the specific degree name
            - A degree in a related field should score well, even if not an exact match
-           - Example: For an AI/ML job, degrees in Robotics or Computer Engineering are relevant but not identical to AI/ML
+           - Example: For an AI/ML job, degrees in Robotics or Computer Engineering are HIGHLY relevant and should score 75-85%
+           - Technical degrees should be considered very valuable for technical roles, regardless of the exact name
         
         2. WORK AND PROJECT EXPERIENCE:
            - VALUE TRANSFERABLE SKILLS highly - many skills are applicable across industries
            - Product management experience is valuable for product roles even in different industries
            - Technical program management experience shows technical understanding even if not direct hands-on development
            - Leadership roles in one industry often translate well to similar roles in other industries
+           - CRITICAL: Experience with consumer-scale products (millions of users) should be considered EQUIVALENT to enterprise rollouts when the job mentions "scale"
+           - AI/ML product experience should be weighted heavily for AI/ML roles, even if not in the exact same domain
+           - Conversational AI experience (voice assistants, chatbots) is DIRECTLY RELEVANT to any job involving LLMs, chatbots, or conversational interfaces
         
         3. SKILLS:
            - Look for CORE SKILLS that transfer between roles (leadership, technical skills, domain knowledge)
            - For technical roles, value specific technical skills mentioned in the resume that match the job
            - For product/management roles, emphasize leadership, strategy, and cross-functional collaboration
+           - IMPORTANT: Technical understanding and exposure to ML/AI concepts count significantly, even if not direct engineering experience
+           - Any patent or coding experience should be weighted heavily when evaluating technical acumen
+           - Experience with Python or other programming languages should count toward technical skills, even for product roles
         
         4. EXPERIENCE YEARS:
            - Consider both the quantity AND relevance of experience:
@@ -149,11 +156,13 @@ class ResumeJDMatcher:
            - A candidate with fewer years but highly relevant experience should receive a HIGHER score (level 4-5)
            - Value directly relevant experience highest, but also credit related experience in different industries
            - For role-specific requirements (e.g., "7+ years software engineering"), be precise about matching
+           - CRITICAL: Leadership experience in adjacent domains should be counted more strongly 
         
         IMPORTANT: Calibrate your scoring based on these examples:
-        - Google AI/ML Engineering Role: A candidate with TPM experience at Google on AI products should score around 70% (not 75%+) due to less direct ML engineering experience
-        - Product Management Roles: Experience in different industries should receive 55-65% scores if the product management skills are transferable
-        - Gaming Industry: Product experience in other technical fields should score around 50% even without direct gaming experience
+        - Google AI/ML Engineering Role: A candidate with TPM experience at Google on AI products should score around 75-80% (increased from previous 70%) as technical program management requires deep technical understanding
+        - Product Management Roles: Experience in different industries should receive 65-75% scores if the product management skills are transferable (increased from 55-65%)
+        - Gaming Industry: Product experience in other technical fields should score around 60% even without direct gaming experience (increased from 50%)
+        - Conversational AI roles: Experience with voice assistants or chatbots should score 80-85% for conversational AI jobs, as these skills are directly transferable
         
         When providing reasoning, be EXTREMELY SPECIFIC and DETAILED about why a candidate didn't receive a higher score:
         - Identify SPECIFIC skills, experiences, or qualifications that are missing
@@ -162,6 +171,12 @@ class ResumeJDMatcher:
         - For experience that is somewhat relevant but not perfect, explain EXACTLY what aspects are aligned and what aspects are misaligned
         
         Avoid vague statements like "candidate has some relevant experience." Instead, provide precise details like "candidate has experience with AI product management at Google but lacks direct hands-on ML engineering experience that would be critical for this role."
+        
+        For each category, use the entire range of scores (1-7) properly:
+        - Scores of 1-2 should only be used for completely mismatched profiles
+        - Scores of 3-4 should be used for partial matches with significant gaps
+        - Scores of 5-6 should be used for strong matches with minor gaps
+        - Score of 7 should be used for perfect matches
         
         Be thorough in your evaluation and provide detailed reasoning for each category.
         
@@ -177,11 +192,21 @@ class ResumeJDMatcher:
         
         Please evaluate the match level (1-7, where 1 is lowest and 7 is highest) and match score (as a percentage) for each of the following categories:
         
-        1. Education - Assess relevance of the field of study, not just the degree name. Robotics degrees are relevant for AI/ML positions but not identical.
+        1. Education - Assess relevance of the field of study, not just the degree name. Robotics degrees are HIGHLY relevant for AI/ML positions and should score 75-85%, not just "somewhat relevant."
         
         2. Work and Project Experience - Value transferable skills across industries. Product management experience in one industry is valuable for product roles in other industries. Technical program management demonstrates technical understanding.
         
-        3. Skills - Look for core skills that transfer between roles. For technical positions, prioritize specific technical skills. For product roles, emphasize leadership and strategy skills. For technical roles, missing a key required framework or tool (e.g., TensorFlow for ML engineers, Unreal for game devs) should result in a skills match of 50-60%. If the candidate has foundational experience but lacks role-specific tools, they may score 60-70%.
+        IMPORTANT: When assessing experience, consider these critical points:
+        - Experience with products at scale (millions of users) should be considered EQUIVALENT to enterprise rollouts
+        - Experience with conversational AI (like Google Assistant) is DIRECTLY RELEVANT to any role involving LLMs, chatbots, or voice interfaces
+        - Leadership roles in adjacent domains should be given stronger weight
+        
+        3. Skills - Look for core skills that transfer between roles. For technical positions, prioritize specific technical skills. For product roles, emphasize leadership and strategy skills. For technical roles, missing a key required framework or tool (e.g., TensorFlow for ML engineers, Unreal for game devs) should result in a skills match of 60-70%. If the candidate has foundational experience but lacks role-specific tools, they may score 70-80%.
+        
+        CRITICAL SKILLS ASSESSMENT:
+        - Consider ANY coding experience as technical skill, even for product roles
+        - Patent experience indicates technical depth and should be weighted accordingly
+        - Technical understanding can come from program management, not just hands-on coding
         
         4. Experience Years - CRITICAL NOTE: Consider both quantity AND relevance. For specific requirements like "7+ years of software engineering," assess if the candidate truly has that exact experience. Recognize that leadership roles in one industry can be valuable in another, but direct, relevant experience should score highest.
         
@@ -190,9 +215,10 @@ class ResumeJDMatcher:
         For any score below 6/7, you MUST provide specific details about what's missing or misaligned in the candidate's profile compared to the job requirements. Explain exactly what would need to be improved for a higher score.
         
         IMPORTANT CALIBRATION GUIDANCE:
-        - For GOOGLE Senior Software Engineer AI/ML: TPMs in AI should typically score between 60-70%, depending on their level of hands-on ML development. If a TPM has AI experience but no ML software engineering experience, expect a score around 60-65%.
-        - For product management roles outside the candidate's primary industry, expect a score between 55-65%. Candidates with general product experience but lacking key domain-specific expertise (e.g., monetization, gaming, AI, etc.) should score closer to 55-60%.
-        - For Epic Games: Product experience from non-gaming industries should score between 40-50%, depending on the relevance of the transferable skills. Candidates with technical product management experience but no gaming exposure should expect a score around 40-45%.
+        - For GOOGLE Senior Software Engineer AI/ML: TPMs in AI should typically score between 70-80%, depending on their level of hands-on ML development. If a TPM has AI experience but no ML software engineering experience, expect a score around 70-75%.
+        - For product management roles outside the candidate's primary industry, expect a score between 65-75%. Candidates with general product experience but lacking key domain-specific expertise (e.g., monetization, gaming, AI, etc.) should score closer to 65-70%.
+        - For conversational AI roles: Candidates with voice assistant or chatbot experience should score 80-85%, as the skills are directly transferable.
+        - For Epic Games: Product experience from non-gaming industries should score between 50-60%, depending on the relevance of the transferable skills.
         
         IMPORTANT FORMATTING REQUIREMENTS:
         1. ONLY return a JSON object with NO additional text, explanation, or markdown formatting
